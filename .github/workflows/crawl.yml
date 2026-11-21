@@ -2,7 +2,7 @@ name: AI Crawl Daily Update
 
 on:
   schedule:
-    - cron: "0 4 * * *"   # daily at 12:00 Beijing time (UTC 04:00)
+    - cron: "47 0 * * *"   # daily at 12:00 Beijing time (UTC 04:00)
   workflow_dispatch:       # manual trigger
 
 jobs:
